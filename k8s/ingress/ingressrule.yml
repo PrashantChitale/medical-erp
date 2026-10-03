@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host:  med-erp-alb-1856805508.ap-south-1.elb.amazonaws.com
+  - host:  #med-erp-alb-1856805508.ap-south-1.elb.amazonaws.com
     http:
       paths:
         
