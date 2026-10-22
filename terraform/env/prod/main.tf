@@ -22,7 +22,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "med-erp-terraform-state-prod"
+    bucket         = "7474-med-erp-terraform-state-prod"
     key            = "prod/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
